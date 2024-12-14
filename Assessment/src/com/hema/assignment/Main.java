@@ -1,5 +1,14 @@
 package com.hema.assignment;
-
+import java.util.Scanner;
 public class Main {
+public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		//get the choice from user to want developer or manager details
+		System.out.print("enter the option , developer (or) manager  : ");
+		
+		//the constructor called from the EmployeeUtilities class
+		new EmployeeUtilities(sc.next());
 
 }
